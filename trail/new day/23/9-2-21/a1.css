@@ -1,0 +1,38 @@
+/* div{
+    width: 200px;
+    height: 400px;
+
+}
+p{
+    font-size: larger;
+    border: 1px solid black;
+} */
+.container{
+
+    border: 2px solid black;
+    margin:100px;
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+}
+/* div{
+    color: blue;
+    background-color: aqua;
+    border: 3px solid black;
+} */
+/* p{
+    text-align: center;
+    border: 3px solid blue;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-left: 0 px;
+    height: 70px;
+  
+} */
+.container div{
+    margin: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: green;
+
+}

@@ -1,0 +1,27 @@
+  /* p, div{
+            color: green;
+            font-size: 25pt;
+            font-family: 'Comic sans ms';
+            font-weight: bold;
+        } */
+
+  /* div{
+            color: orange;
+            font-size: 30pt;
+            font-family: 'Tahoma';
+            font-style: italic;
+        } */
+
+  .mystyle {
+      color: green;
+      font-size: 25pt;
+      font-family: 'Comic sans ms';
+      font-weight: bold;
+  }
+
+  #div1 {
+      color: brown;
+      font-size: 20pt;
+      font-family: 'Monotype Corsiva';
+      font-style: italic;
+  }

@@ -1,0 +1,107 @@
+.Head{
+    background-image: linear-gradient(to bottom right, rgba(48, 1, 1, 0.836), red);
+    display: flex;
+}
+.Head div{
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Logo{
+    flex: 1;
+}
+.Header{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    padding-right: 1%;
+    display: flex;
+}
+/* .HeaderCredential div{
+    flex-direction: row;
+} */
+.Text{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+.Box1{
+    flex: 1;
+}
+.Box2{
+    flex: 1;
+}
+.NBar{
+    background-image: linear-gradient(to bottom right, rgb(255, 37, 37), rgba(68, 2, 2, 0.842));
+    display: flex;
+    padding: 10pt;
+    justify-content: space-between;
+    justify-content: left;
+    color: white;
+}
+/* .NavigationBar div> */
+a{
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    margin: 20pt;
+    /* justify-content: space-between; */
+}
+
+/* .NavigationBar div> */
+a:hover{
+    color: rgb(8, 173, 8);
+}
+.Main{
+    display: flex;
+}
+.Main div{
+    flex-direction: row;
+}
+.Speciality{
+flex: 8;
+}
+.Speciality div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Speciality div>img{
+    border: 5pt solid rgb(219, 219, 219);
+    border-radius: 5pt;
+    padding: 3pt;
+    height: 30vh;
+    width: 90%;
+}
+.Speciality div>p{
+    text-align: center;
+    /* margin-left: 10%; */
+    color: rgb(112, 4, 4);
+}
+.Menu{
+    background-color:white;
+flex: 2;
+}
+.Menu div>a{
+    background-color: rgb(119, 1, 1);
+    padding: 15pt;
+    color:white;
+    width: 83%;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    /* border-color: white; */
+    border: solid;
+}
+.Menu div>a:hover{
+    color: green;
+    background-color: rgb(119, 187, 247);
+    border-color: white;
+}
+.Footer{
+    color:white;
+    padding: 2%;
+    background-color: rgb(97, 2, 2);
+}

@@ -1,0 +1,38 @@
+.container div {    
+    padding: 10px;
+    border: 1px solid rgb(177, 175, 175);
+    background-color: aliceblue;
+}
+
+.container2 div{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.container {
+    display: flex;
+    /* width:50%; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.box1 {
+    flex: 1;
+    /* order: 2; */
+}
+
+.box2 {
+    flex: 2
+    /* order: 3; */
+}
+
+.box3 {
+    flex: 1;
+    /* order: 1; */
+}

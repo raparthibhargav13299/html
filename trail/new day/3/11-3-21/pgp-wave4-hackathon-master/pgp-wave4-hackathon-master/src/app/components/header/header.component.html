@@ -1,0 +1,44 @@
+<p><i class="fas fa-coins px-2"></i>Expense Tracker</p>
+<div class="text-center">Your Balance</div>
+<div>{{totalAmount|currency:'INR'}}</div>
+<div class="row">
+    <div id=income class="col-md-6">
+        <div>income</div>
+        <div>{{income|currency:'INR'}}</div>
+    </div>
+    <div class="col-md-6">
+        <div>Expense</div>
+        <div>{{expense|currency:'INR'}}</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Enter Description" [(ngModel)]="transaction.description">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <input type="text" class="form-control mt-2" placeholder="Enter Amount" [(ngModel)]="transaction.amount">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <input type="date" class="form-control mt-2" [(ngModel)]="transaction.transactiondate">
+    </div>
+</div>
+<input class="mt-2 " #inc id=income  type="radio"> Income
+<input class="mt-2 " #exp id=expense  type="radio"> Expense
+<div class="row">
+    <div class="col-md-6" off-set-md-3>
+        <button class="btn btn-secondary mt-2" (click)=onSubmit()>Add Transcation</button>
+    </div>
+</div>
+<div class="container">
+    <UL *ngFor='let t of tran'>
+        <li>{{t.transactiondate}}</li>
+        <li>{{t.description}}</li>
+        <li>{{t.amount}}<i class="fas fa-trash float-end"></i></li>
+
+    </UL>
+</div>
+

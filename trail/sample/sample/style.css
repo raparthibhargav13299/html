@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    height: 700px;
+    margin-left: 400px;
+    text-align: center;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.links{
+    font-family: 'Monotype Corsiva';
+}
+
+.pic{
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.images{
+    margin-top: 50px;
+}

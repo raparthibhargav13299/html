@@ -1,0 +1,23 @@
+p{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 5pt 5pt;
+    margin-left: 5pt;
+}
+div{
+    text-align: center;
+    font-size: 20pt;
+}
+/* #income{
+    border: 1px solid black;
+} */
+.text{
+    margin-top: 10pt;
+    margin-left: 50pt;
+    margin-right: 100pt;
+}
+.container{
+    border: 1pt solid black;
+    text-decoration: none;
+}

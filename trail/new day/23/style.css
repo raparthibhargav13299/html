@@ -1,0 +1,32 @@
+.Container{
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.logo{
+    width: 240px;
+    height: 150px;
+}
+.text{
+    font-family: 'Monotype Corsiva';
+    font-size: 18pt;
+}
+.footer{
+    position: fixed;
+    padding: 20px;
+     /* margin-left: 100px;
+     margin-right: 100px; */
+    left: 100px;
+    right: 100px;
+    bottom: 10px;
+    width: 83%;
+    height: 30px;
+    background-color: rgb(105, 78, 78);
+    color: white;
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+

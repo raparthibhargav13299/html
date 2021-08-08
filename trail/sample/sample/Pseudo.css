@@ -1,0 +1,17 @@
+/* p:first-of-type {
+    color: red;
+} */
+
+/* p:nth-child(3){
+    color: red;
+} */
+
+p:nth-child(even){
+    background-color: black;
+    color: white;
+}
+
+p:nth-child(odd){
+    background-color: rgb(109, 107, 107);
+    color: white;
+}

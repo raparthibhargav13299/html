@@ -1,0 +1,25 @@
+/* .pic {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: red;
+    z-index: 1;
+} */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.float-style {
+    width: 20%;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: left;
+    opacity: 0.5;
+}

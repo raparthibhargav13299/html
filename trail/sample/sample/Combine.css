@@ -1,0 +1,23 @@
+/* 
+Types of Combinators
+- Descendant Selector (space)
+- Child Selector (>)
+- Adjacent Sibling Selector (+)
+- General Sibling Selector (~)
+*/
+
+/* div p {
+    color: red;
+} */
+
+/* div>p {
+    color: red;
+} */
+
+/* div+p {
+    color: red;
+} */
+
+div~p {
+    color: red;
+}
